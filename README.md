@@ -1,3 +1,42 @@
+# How to run the contracts
+
+First, kick off Ganache: `> ganache-cli`
+
+Second, run `> truffle migrate`
+
+Third, run `> truffle console`
+
+Fourth, run `> let instance = await CommitReveal.deployed()` to get the deployed instance in truffle's console
+
+Fifth, run `> instance.address` to get the deployed address
+
+
+# How to run the client
+
+First, run `> cd ./client`
+
+Second, install dependencies. `> npm i`
+
+Third, replace the existing address with the new deployed address (Step #5 of running contracts) in `config.js` file
+
+![#3](https://i.ibb.co/r75HJ7d/Screen-Shot-2021-09-23-at-12-18-15-PM.png)
+
+Fourth, run `npm run start`
+
+![#4](https://i.ibb.co/tpC4D31/Screen-Shot-2021-09-23-at-12-34-32-PM.png)
+
+
+
+
+
+
+
+
+<br />
+<br />
+<br />
+
+
 # Full-stack Web3 Engineering Assignment
 
 Thank you for your interest in joining the SportX engineering team!
