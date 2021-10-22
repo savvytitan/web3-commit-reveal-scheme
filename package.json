@@ -1,7 +1,7 @@
 {
-  "name": "web3-engineering-assignment",
+  "name": "web3-commit-reveal-scheme",
   "version": "1.0.0",
-  "description": "An assignment for prospective web3 engineers @ SportX.bet",
+  "description": "A simple solution to commit-reveal voting scheme",
   "main": "\"\"",
   "directories": {
     "test": "test"
@@ -22,6 +22,6 @@
     "test": "truffle test",
     "migrate": "truffle migrate"
   },
-  "author": "Julian Wilson <julian@sportx.bet>",
+  "author": "Dennis Wang <pro.it324@gmail.com>",
   "license": "MIT"
 }
